@@ -1,6 +1,6 @@
-const Attire = require(".../internal/models/attire");
-const Response=require('.../internal/log/response')
-const { default: mongoose, isValidObjectId } = require('mongoose');
+const Attire = require("D:/Project-Nodejs/internal/models/attire");
+const Response=require("D:/Project-Nodejs/internal/log/response")
+const { isValidObjectId } = require('mongoose');
 
 module.exports.getAllAttire = async function(req, res, next) {
     try {
