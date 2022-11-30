@@ -2,7 +2,7 @@ module.exports.Status={
     Status200:{
         index:1,
         code:200,
-        data:''
+        data:'ok'
     },
 
     Status400:{

@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 var attireSchema = new mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
+    customer:String,
     trademark: String,
     img:String,
     name: String,
@@ -10,6 +11,8 @@ var attireSchema = new mongoose.Schema({
     description: String,
     sale: Number,
     total: Number,
+    createdAt:String,
+    updatedAt:String
 });
 
 var Attire = mongoose.model('Attire', attireSchema, 'attire');
