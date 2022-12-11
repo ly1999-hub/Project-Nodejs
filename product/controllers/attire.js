@@ -1,4 +1,4 @@
-const Attire = require("D:/Project-Nodejs/internal/models/attire");
+const Attire = require("D:/Project-Nodejs/internal/models/attire")
 const Response=require("D:/Project-Nodejs/internal/log/response")
 let initID=require('D:/Project-Nodejs/internal/models/initID')
 const { isValidObjectId } = require('mongoose');

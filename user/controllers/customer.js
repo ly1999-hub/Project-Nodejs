@@ -31,7 +31,7 @@ module.exports.postCreate=async function(req,res,next){
 
 module.exports.detailCustomer=async function(req,res,next){
     const id=req.params.id;
-    const customer=Customer.findById(id).exec()
+    const customer=await Customer.findById(id).exec()
     if(customer!=null){
         res.json(customer)
     }else{
